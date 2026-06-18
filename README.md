@@ -1,6 +1,6 @@
-#Buyer Segmentation and Investment Profiling for Real Estate Market Intelligence
+# Buyer Segmentation and Investment Profiling for Real Estate Market Intelligence
 
-##Background and Context
+## Background and Context
 
 Real estate companies operate in markets where buyer behavior is highly diverse:
 
@@ -20,7 +20,7 @@ Without segmentation, companies treat all buyers the same. This leads to:
 • Missed investment opportunities
 Using AI-based clustering, we can discover hidden patterns in buyer behavior.
 
-Problem Statement
+## Problem Statement
 
 Parcl currently lacks a data-driven understanding of:
 
@@ -33,11 +33,11 @@ This leads to:
 • Inefficient marketing spend
 • Generic property recommendations
 • Poor investor targeting
-Dataset Fields Description:
+## Dataset Fields Description:
 
 <img width="1404" height="1172" alt="image" src="https://github.com/user-attachments/assets/ce704ade-3f82-47c5-a055-4bf07e1b41ea" />
 
-Data Science Methodology (Step-by-Step)
+## Data Science Methodology (Step-by-Step)
 
 Step 1 – Data Cleaning
 
@@ -52,16 +52,11 @@ Convert categorical fields using:
 • One-Hot Encoding
 • Label Encoding
 • Variables encoded include:
-•
-client_type
-•
-region
-•
-acquisition_purpose
-•
-referral_channel
-•
-country
+•client_type
+•region
+•acquisition_purpose
+•referral_channel
+•country
 Step 3 – Feature Scaling
 
 Use StandardScaler or MinMaxScaler to normalize numeric variables such as:
@@ -94,19 +89,25 @@ Each cluster is analyzed based on:
 • geographic distribution
 • loan behavior
 • customer demographics
-Recommended Buyer Segments
+## Recommended Buyer Segments
 
 <img width="1418" height="540" alt="image" src="https://github.com/user-attachments/assets/493f958a-0a51-42fc-9c49-7aa628748d97" />
 
+## Streamlit Web Application Requirements
+
 • Buyer Segmentation Overview
 - ● Displays cluster distribution.
+  
 • Investor Behavior Dashboard
 - ● Shows investment patterns by cluster.
+  
 • Geographic Buyer Analysis
 - ● Maps buyer segments by region.
+  
 • Segment Insights Panel
 - ● Provides descriptive statistics per cluster.
-User Controls
+  
+## User Controls
 
 Users can filter by:
 
@@ -114,10 +115,10 @@ Users can filter by:
 • region
 • acquisition purpose
 • client type
-Deliverables and Submission
+## Deliverables and Submission
 
 • Research paper (EDA, insights, recommendations)
 • Streamlit dashboard (live analytics)
-Conclusion
+## Conclusion
 
 This project introduces AI-driven buyer intelligence into the Parcl real estate platform. By identifying hidden customer segments through clustering algorithms, the system reveals investment behaviors that traditional analytics cannot detect. Enabling Parcl to build smarter marketing strategies and drive data-driven real estate investment decisions
